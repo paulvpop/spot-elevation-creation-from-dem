@@ -3,7 +3,21 @@ Spot elevations are a less information-dense representation of elevation/mean he
 pattern of an area rather than rigorous analysis of the elevational pattern. In addition, this workflow will guide you  **ii) on how to create points for the highest and lowest elevations within an
 area of interest** with the use of a Python script run through QGIS.
 
-### i) Spot elevation creation
+This workflow has been authored by Paul Pop.
+
+This work was carried out under the BIRD lab, ATREE, Bengaluru (PI: Rajkamal Goswami).
+
+*Version 1.0 - last updated 2026-05-13 <br>
+Last update - formatting text*
+
+View the most current version at https://github.com/paulvpop/spot-elevation-creation-from-dem/blob/main/tutorial.md
+
+Sections:
+
+- [Section 1: Spot elevation creation](#section-1-spot-elevation-creation)
+- [Section 2: Highest and lowest elevation creation](#section-2-highest-and-lowest-elevation-creation)
+
+## Section 1: Spot elevation creation
 
 **Step 1:** First, find a suitable and accurate DEM. You can refer to the [methods here](https://github.com/paulvpop/gis-land-cover-mapping/blob/main/05.%20Level%202%20processing.md#step-2-select-the-dem-download-it-and-process-it-if-required).
 
@@ -81,7 +95,7 @@ This will give the desired output of the boundary with spot elevations. You can 
 
 <img width="692" height="525" alt="image" src="https://github.com/user-attachments/assets/4cfb7c65-e086-46a9-96b7-1660a7886cd2" />
 
-### ii) Highest and lowest elevation creation
+## Section 2: Highest and lowest elevation creation
 
 **Step 1:** First, if not already done, clip the DEM to your specific area of interest (in this case, it is the DEM clipped to the Mouling National Park boundary). 
 This can be done by using the 'Clip raster by mask layer' algorithm (search in the *Processing Toolbox*). Keep the 'Input Layer' as the DEM and the 'Mask Layer' as the

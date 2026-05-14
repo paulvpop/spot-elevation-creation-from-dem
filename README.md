@@ -1,9 +1,9 @@
-This workflow will guide you on how to create spot elevation/spot heights in QGIS at randomly sampled points within a boundary using a digital elevation model. This will be useful when creating maps of legally protected areas/community conserved areas/trekking routes.
+This workflow will guide you i) on how to mark spot elevations at various randomly selected and spaced points within a boundary. You can also mark them on non-randomly selected spots. Spot elevations are a less information-dense representation of elevation/mean height above sea level compared to contour lines. It's largely for a broad understanding of the elevational pattern of an area rather than rigorous analysis of the elevational pattern. In addition, this workflow will guide you ii) on how to create points for the highest and lowest elevations within an area of interest with the use of a Python script run through QGIS.
 
-This repository has been authored by Paul Pop.
+Requirements:
+QGIS v.3.x installed
+A digitial elevation model like ALOS or SRTM.
+
+This workflow has been authored by Paul Pop.
 
 This work was carried out under the BIRD lab, ATREE, Bengaluru (PI: Rajkamal Goswami).
-
-Requirements: 
-1) QGIS v.3.+ installed
-2) A digitial elevation model like ALOS or SRTM.

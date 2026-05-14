@@ -3,12 +3,17 @@ Spot elevations are a less information-dense representation of elevation/mean he
 pattern of an area rather than rigorous analysis of the elevational pattern. In addition, this workflow will guide you  **ii) on how to create points for the highest and lowest elevations within an
 area of interest** with the use of a Python script run through QGIS.
 
+Requirements:
+
+QGIS v.3.x installed
+A digitial elevation model like ALOS or SRTM.
+
 This workflow has been authored by Paul Pop.
 
 This work was carried out under the BIRD lab, ATREE, Bengaluru (PI: Rajkamal Goswami).
 
-*Version 1.0 - last updated 2026-05-13 <br>
-Last update - formatting text*
+*Version 1.1 - last updated 2026-05-13 <br>
+Last update - requirements added*
 
 View the most current version at https://github.com/paulvpop/spot-elevation-creation-from-dem/blob/main/tutorial.md
 

@@ -1,3 +1,7 @@
+# Author: Paul Pop
+# Affiliation: BIRD Lab, ATREE, Bengaluru (PI: Rajkamal Goswami)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 from osgeo import gdal
 import numpy as np
 from qgis.core import QgsFeature, QgsGeometry, QgsField, QgsVectorLayer, QgsProject, QgsVectorFileWriter, QgsCoordinateTransformContext
